@@ -1,0 +1,294 @@
+ul{
+    list-style-type: none;
+    font-size: large;
+    
+}
+li{
+    display: inline-block;
+    margin: 16px;
+    padding: 10px;
+    border: 16px;
+}
+.one{
+    background-color: lightgrey;
+}
+.bold{
+    font-weight: bold;
+}
+body{
+    font-family: "Poppins",sans-serif;
+    font-size: large;
+    
+}
+.lightgreen{
+    color: #6CB840;
+    font-size: 2em;
+}
+.lightorange{
+    color: #EAAB1B;
+    font-size: 2em;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #6CB840;
+    color: white;
+    border: 2px solid #6CB840;
+    padding: 13px 20px;
+    margin-top: 2px;
+    margin-bottom: 80px;
+    margin-left: 65px;
+    border-radius: 200px;
+}
+#margin{
+    margin-left: 65px;
+    
+}
+.image1{
+    position: relative;
+    right: 100px;
+    width: 70%;
+    margin-left: 100px;
+    
+    
+}
+#section-1{
+    width: 40%;
+    text-align: justify;
+}
+#section-2 {
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+#section-2 > div{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 0px;
+    padding: 2px;
+    
+   
+}
+.image1{
+    width: 60%;
+}
+.title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#section-3 .row{
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    
+    justify-content: space-evenly;
+   
+}
+#section-3{
+    background-color: lightgrey;
+    
+}
+#section-3 .row .burger {
+    width: 20%;
+    padding: 10px 20px;
+    background-color: white;
+    bottom: 60px;
+    position: relative;
+    border-radius: 0 0 50px 0;
+}
+.burger p{
+    font-size: 15px;
+    font-weight: 500;
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+#slide-2 .content > div {
+    flex: 1;
+}
+#slide-2 .image {
+    margin-top: -150px;
+    position: relative;
+    height: 60vh;
+    margin-bottom: 100px;
+}
+#slide-2 .image img{
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    top: -18px;
+    height: 110%;
+    width: 60%;
+    
+}
+#slide-2 .image .right {
+    left: 150px;
+    width: 50%;
+    height: 50%;
+    margin-top: 260px;
+    margin-left: 10px;
+
+}
+#slide-2 .content h2, #slide-2 .content h1 {
+    margin: 7px 0;
+    
+}
+#slide-2 .content p {
+    width: 60%;
+    font-size: 1em;
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+}
+#special{
+    margin-left: -100px;
+    right: -50px;
+    position: relative;
+}
+div > h2 > span{
+    color: #6CB840;
+    
+}
+div > h2{
+    margin-top: 100px;
+}#slide-2 {
+    background-color: #C9ECB5;
+}
+#slide-2 .content {
+    display: flex;
+}
+#slide-2 .content > div {
+    flex: 1;
+}
+#slide-2 .image {
+    margin-top: -150px;
+    position: relative;
+    height: 60vh;
+    margin-bottom: 100px;
+}
+#slide-2 .image img{
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    top: -18px;
+    height: 110%;
+    width: 60%;
+    
+}
+#slide-2 .image .right {
+    left: 150px;
+    width: 50%;
+    height: 50%;
+    margin-top: 260px;
+    margin-left: 10px;
+
+}
+#slide-2 .content h2, #slide-2 .content h1 {
+    margin: 7px 0;
+    
+}
+#slide-2 .content p {
+    width: 60%;
+    font-size: 1em;
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+}
+#special{
+    margin-left: -100px;
+    right: -50px;
+    position: relative;
+}
+div > h2 > span{
+    color: #6CB840;
+}
+div > h2{
+    margin-top: 100px;
+}
+#slide-3 p {
+    width: 30%;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+}
+#slide-3 form {
+    width: 40%;
+    margin: auto;
+}
+#slide-3 input {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    height: 48px;
+    border-radius: 24px;
+    padding: 0 20px;
+    margin: 40px 0;
+    color: #000;
+}
+#slide-3 button {
+    width: 30%;
+    color: #fff;
+    border: none;
+    height: 48px;
+    border-radius: 24px;
+    padding: 0 20px;
+    background-color: #6CB840;
+}
+#footer {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #C9ECB5;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .sec1 {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.fbtn {
+    color: #fff;
+    border: none;
+    background-color: #6CB840;
+}
+div > form > p > span{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #6CB840;
+    color: white;
+    border: -2px solid #6CB840;
+    padding: 10px 20px;
+    border-radius: 200px;
+    border-right: 80px;
+    
+    
+}
+#slide-3{
+    background-color: #FFD77C;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    
+}
+#slide-2{
+  
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -100px;
+    padding: -50px 20px;
+    box-sizing: border-box;
+}
