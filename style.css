@@ -138,7 +138,7 @@ body{
     
 }
 #section-3 .row .burger {
-    width: 20%;
+    vwidth: 20%;
     padding: 10px 20px;
     background-color: white;
     bottom: 60px;
@@ -214,6 +214,15 @@ div > h2{
     position: relative;
     height: 60vh;
     margin-bottom: 100px;
+}
+.burgerimage {
+    float: left;
+    width: 160px;
+    height: 70%;
+    flex-direction: row;
+    position: relative;
+    margin-top: 60px;
+    margin-left: -80px;
 }
 #slide-2 .image img{
     position: absolute;
