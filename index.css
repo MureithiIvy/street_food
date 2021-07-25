@@ -52,11 +52,11 @@ body{
     border-radius: 200px;
 }
 .circle_1{
-    position:relative;top:140px;left:200px;
+    position:relative;top:140px;left:700px;
     z-index: 1;
 }
 .circle_2{
-    position:relative;bottom:60px;left:270px;
+    position:relative;bottom:60px;left:800px;
     z-index: 1;
 }
 .circle_3{
