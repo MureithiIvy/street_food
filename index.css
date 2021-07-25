@@ -3,6 +3,15 @@ ul{
     font-size: large;
     
 }
+a{
+    color: #0b0c0c;
+    text-decoration: none;
+}
+a:hover{
+    color:#0b0c0c;
+    text-decoration: none;
+    cursor: pointer;
+}
 li{
     display: inline-block;
     margin: 16px;
