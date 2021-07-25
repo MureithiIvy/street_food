@@ -133,7 +133,7 @@ body{
     justify-content: space-evenly;
    
 }
-column3 {
+.column1 {
     float: left;
     width: 65%;
     padding: 10px;
@@ -141,9 +141,16 @@ column3 {
     margin-left: 220px;
     margin-top: 80px;
 }
-.column3>p>#follow {
+.column1>p>#follow {
     font-size: larger;
     font-weight: 550;
+}
+#button2 {
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 0px;
+    text-align: center;
+    height: 30px;
 }
 #section-3{
     background-color: lightgrey;
