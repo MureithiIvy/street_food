@@ -133,6 +133,18 @@ body{
     justify-content: space-evenly;
    
 }
+column3 {
+    float: left;
+    width: 65%;
+    padding: 10px;
+    height: 300px;
+    margin-left: 220px;
+    margin-top: 80px;
+}
+.column3>p>#follow {
+    font-size: larger;
+    font-weight: 550;
+}
 #section-3{
     background-color: lightgrey;
     
